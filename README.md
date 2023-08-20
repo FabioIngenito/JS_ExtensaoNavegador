@@ -13,7 +13,7 @@ Converte para seu CASE favorito. Mostra o total de caracteres. Número com ponto
 
 <h3 align="left">Referências</h3>
 
-Formato de manifest.json para extensões
+&#9728; Formato de manifest.json para extensões
 
 https://learn.microsoft.com/pt-br/microsoft-edge/extensions-chromium/getting-started/manifest-format?tabs=v3
 
