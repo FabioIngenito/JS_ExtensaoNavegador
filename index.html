@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manipula Texto</title>
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+<body>
+  <div id="titulo" class="negrito">DIGITE OU COLE O TEXTO AQUI:</div>
+  <input id="texto" type="text" value="   Ação /: variável TeXTo     ">
+
+  <!-- <div class="botao" class="hidden">
+    <button id="btn_Converter">Converter</button>
+  </div> -->
+
+  <div id="tamanhoCom" class="negrito">Tamanho com espaços:</div>
+  <div id="tamanhoSem" class="negrito">Tamanho sem espaços:</div>
+
+  <div id="allRadio">
+    <input type="radio" id="camelCase" name="radioCase" value="CamelCase">
+    <label for="camelCase" id="lblCamelCase">Camel Case / Dromedary Case</label><br>
+
+    <input type="radio" id="pascalCase" name="radioCase" value="PascalCase">
+    <label for="pascalCase" id="lblPascalCase">Pascal Case / Capital Case</label><br>
+
+    <input type="radio" id="snakeCase" name="radioCase" value="SnakeCase">
+    <label for="snakeCase" id="lblSnakeCase">Snake Case / Underscore Case</label><br>
+
+    <input type="radio" id="constantCase" name="radioCase" value="ConstantCase">
+    <label for="constantCase" id="lblConstantCase">Constant Case / Scream Snake Case</label><br>
+
+    <input type="radio" id="brochetteCase" name="radioCase" value="BrochetteCase">
+    <label for="brochetteCase" id="lblBrochetteCase">Brochette Case</label><br>
+
+    <input type="radio" id="kebabCase" name="radioCase" value="KebabCase">
+    <label for="kebabCase" id="lblKebabCase">Kebab Case / Caterpillar Case</label><br>
+
+    <input type="radio" id="scremingCase" name="radioCase" value="ScremingCase">
+    <label for="scremingCase" id="lblScremingCase">Screaming Kebab Case / Cobol Case</label><br>
+
+    <input type="radio" id="flatCase" name="radioCase" value="FlatCase">
+    <label for="flatCase" id="lblFlatCase">Flat Case / Mumble Case</label><br>
+  </div>
+
+  <div id="resposta" class="negrito"></div>
+
+  <div class="classResposta">
+    <div id="caixa" class="caixa"></div>
+    <button id="btn_Copiar" class="btn">Copiar</button>
+  </div>
+
+  <script src="script.js"></script>
+  <!-- NÃO usei, mas achei legal:-->
+  <!-- <script src="lodash.js"></script> -->
+  </script>
+</body>
+
+</html>
