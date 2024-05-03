@@ -1,17 +1,21 @@
+// Manifest.json format for extensions
 // Formato de manifest.json para extensões
 // https://learn.microsoft.com/pt-br/microsoft-edge/extensions-chromium/getting-started/manifest-format?tabs=v3
 // https://developer.chrome.com/docs/extensions/mv3/manifest/
 //
+// What has changed in the V3 manifesto? - Chrome extensions
 // O que mudou no manifesto V3? - Extensões do Chrome
 // 15 de fev. de 2021
 // Guilhermeasper
 // https://youtu.be/cLYcy7MeBhQ
 //
+// Naming conventions: Camel, Pascal, Kebab and Snake case
 // Convenções de nomenclatura: Camel, Pascal, Kebab e Snake case
 // https://programadorviking.com.br/convencoes-camel-case-pascal-case-snake-case-kebab-case/
 // https://www.alura.com.br/artigos/convencoes-nomenclatura-camel-pascal-kebab-snake-case
 // https://www.tabnews.com.br/VictorManhani/cases-existentes-e-suas-linguagens-preferidas
 //
+// Formatting and Rounding numbers in JavaScript: 2 decimal places and other possible cases
 // Formatando e Arredondando números no JavaScript: 2 casas decimais e outros casos possíveis
 // https://www.alura.com.br/artigos/formatando-numeros-no-javascript
 //
@@ -23,6 +27,7 @@
 // Lodash - A modern JavaScript utility library delivering modularity, performance & extras.
 // https://lodash.com/
 //
+// Publish a Microsoft Edge extension
 // Publicar uma extensão do Microsoft Edge
 // https://learn.microsoft.com/pt-br/microsoft-edge/extensions-chromium/publish/publish-extension
 
@@ -40,6 +45,7 @@ https: document.addEventListener("DOMContentLoaded", () => {
   const flatCase = document.getElementById("lblFlatCase");
 
   /* ------------------------------------------------------------
+     It does NOT work within the extension.
      NÃO funciona dentro da extensão.
      ------------------------------------------------------------ */
   // const btnC = document.getElementById("btn_Converter");
@@ -118,11 +124,11 @@ https: document.addEventListener("DOMContentLoaded", () => {
 
     document.getElementById(
       "tamanhoSem"
-    ).innerHTML = `Tamanho sem espaços: ${num_caracteresSem} caracteres.`;
+    ).innerHTML = `Size without spaces: ${num_caracteresSem} characters.`;
 
     document.getElementById(
       "tamanhoCom"
-    ).innerHTML = `Tamanho com espaços: ${text.length} caracteres.`;
+    ).innerHTML = `Size with spaces: ${text.length} characters.`;
 
     if (isNotNumber(text)) {
       camelCase.innerHTML = "Camel Case / Dromedary Case";
@@ -343,6 +349,7 @@ https: document.addEventListener("DOMContentLoaded", () => {
       return t.toUpperCase();
     });
 
+  // function that checks if it is a number
   // função que verifica se é um número
   const isNotNumber = (str) => isNaN(parseFloat(str));
 

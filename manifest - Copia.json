@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "Programming Language CASE",
+  "name": "CASE de Linguagem",
   "version": "1.0",
   "action": {
-    "default_title": "Programming Language CASE",
+    "default_title": "CASE de Linguagem",
     "default_icon": {
       "16": "images/icon16.png",
       "24": "images/icon24.png",
@@ -13,7 +13,7 @@
     },
     "default_popup": "index.html"
   },
-  "description": "Convert to your favorite CASE type with dot or without dot.",
+  "description": "Converte para seu CASE favorito. Número com ponto ou sem ponto. Número por extenso. Retira caracteres especiais e espaços. Fabio I.",
   "author": "fabio.ingenito@hotmail.com",
   "icons": {
     "16": "images/icon16.png",
