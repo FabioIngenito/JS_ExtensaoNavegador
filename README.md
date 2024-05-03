@@ -6,7 +6,7 @@
 | :label: Tecnologias | JavaScript CSS HTML Extensão
 
 ![ExtensaoNavegador](https://github.com/FabioIngenito/JS_ExtensaoNavegador/assets/24603753/91437d26-5775-457d-87b9-403081270d8c#vitrinedev)
-
+![BrowserExtension](https://github.com/FabioIngenito/JS_ExtensaoNavegador/assets/24603753/b063de2a-7505-4f07-8c56-eb787563d226)
 
 <h2 align="left">Project details / Detalhes do projeto</h2>
 
