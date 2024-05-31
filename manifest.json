@@ -23,5 +23,5 @@
     "128": "images/icon128.png"
   },
   "homepage_url": "https://github.com/FabioIngenito/JS_ExtensaoNavegador",
-  "permissions": ["clipboardRead", "clipboardWrite", "nativeMessaging"]
+  "permissions": ["clipboardWrite"]
 }
